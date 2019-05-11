@@ -62,7 +62,7 @@ var loc=0;
 	
 	function whatAmI() {
 		switch(loc) {
-			case 0: species="Black crappy";
+			case 0: species="yo momma";
 			break;
 		}
 	}

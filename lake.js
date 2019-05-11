@@ -18,12 +18,12 @@ var loc=0;
 			shoMeGoodz();
 			document.getElementById("reelin").innerHTML="";
 			document.getElementById("cast").innerHTML='<button onclick="fishNow();" >Cast!</button>';
+			reel=0;
 			return;
 			} else {
 				document.getElementById("bobber").innerHTML="There was no fish. What were you thinking?";
 				document.getElementById("cast").innerHTML='<button onclick="fishNow();" >Cast!</button>';
 				document.getElementById("reelin").innerHTML="";
-				reel=0;
 				return;
 			}
 		}
@@ -57,7 +57,7 @@ var loc=0;
 	}
 	
 	function shoMeGoodz() {
-		document.getElementById("bag").innerHTML="You have "+plecak.rypki+" <b><i>fish</i></b>!";
+		document.getElementById("bag").innerHTML="You have "+eq.fishz+" <b><i>fish</i></b>!";
 	}
 	
 	function whatAmI() {

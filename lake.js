@@ -23,6 +23,7 @@ var loc=0;
 				document.getElementById("bobber").innerHTML="There was no fish. What were you thinking?";
 				document.getElementById("cast").innerHTML='<button onclick="fishNow();" >Cast!</button>';
 				document.getElementById("reelin").innerHTML="";
+				reel=0;
 				return;
 			}
 		}
